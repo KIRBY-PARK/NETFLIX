@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* header */
+header {}
+header nav {padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%;}
+header nav .left_nav {display: flex; align-items: center;}
+header nav .left_nav .logo {width: 120px; height: 55px;}
+header nav .left_nav .logo a {display: block; width: 100%;}
+header nav .left_nav .logo a img {width: 100%;}
+header nav .left_nav ul {display: flex; justify-content: space-between; width: 100%;}
+header nav .left_nav ul li {margin-left: 18px;}
+header nav .left_nav ul li a {font-size: 14px; font-weight: 400;}
+
+header nav .right_nav {display: flex;}
+
+/* section */
+
+
+/* footer */
+footer {background-color: #141414;}
+footer a, footer p {font-size: 14px; color: #808080;}
+
+footer .ft_sns {display: flex;}
