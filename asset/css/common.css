@@ -16,7 +16,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {display: block;}
-body {line-height: 1;}
+body {line-height: 0;}
 ol, ul {list-style: none;}
 blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,
@@ -25,11 +25,12 @@ table {border-collapse: collapse; border-spacing: 0;}
 a {color: #e5e5e5; text-decoration: none;}
 
 body {background-color: #141414;}
-header, section, footer {display: block; margin: 0 auto; width: 95%; max-width: 1350px;}
+footer {display: block; margin: 0 auto; width: 95%; max-width: 1350px;}
 
 /* header */
-header {}
-header nav {padding: 10px 0; display: flex; justify-content: space-between; align-items: center; width: 100%;}
+header {position: relative; z-index: 99; background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);}
+header .hd_wr {display: block; margin: 0 auto; width: 95%;}
+header nav {display: flex; padding: 10px 0; justify-content: space-between; align-items: center; width: 100%;}
 header nav .left_nav {display: flex; align-items: center;}
 header nav .left_nav .logo {width: 120px; height: 55px;}
 header nav .left_nav .logo a {display: block; width: 100%;}
@@ -39,3 +40,25 @@ header nav .left_nav ul li {margin-left: 18px;}
 header nav .left_nav ul li a {font-size: 14px; font-weight: 400;}
 
 header nav .right_nav {display: flex;}
+header nav .right_nav li:last-child img {width: 30px; border-radius: 2px;}
+
+/* footer */
+footer {background-color: #141414;}
+footer .ft_sns {}
+footer .ft_sns li {}
+footer .ft_sns li a {}
+
+footer .ft_sitemap {display: flex; flex-wrap: wrap; margin: 20px 0;}
+footer .ft_sitemap li {margin: 0 0 20px; width: 25%;}
+footer .ft_sitemap li a {font-size: 13px; color: #808080;}
+
+footer p {margin: 15px 0; font-size: 12px; line-height: 1.5; color: #808080;}
+
+
+
+
+
+
+
+
+

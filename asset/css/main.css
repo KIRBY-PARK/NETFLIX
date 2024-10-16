@@ -1,10 +1,6 @@
 @charset "utf-8";
 
 /* section */
-
-
-/* footer */
-footer {background-color: #141414;}
-footer a, footer p {font-size: 14px; color: #808080;}
-
-footer .ft_sns {display: flex;}
+section {}
+#main_wr {position: relative; top: -75px;}
+#main_wr img {width: 100%;}
