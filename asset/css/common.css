@@ -27,6 +27,8 @@ a {color: #e5e5e5; text-decoration: none;}
 body {background-color: #141414;}
 footer {display: block; margin: 0 auto; width: 95%; max-width: 1350px;}
 
+h1 {overflow: hidden;}
+
 /* header */
 header {position: relative; z-index: 99; background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);}
 header .hd_wr {display: block; margin: 0 auto; width: 95%;}
@@ -49,7 +51,7 @@ footer .ft_sns li {}
 footer .ft_sns li a {}
 
 footer .ft_sitemap {display: flex; flex-wrap: wrap; margin: 20px 0;}
-footer .ft_sitemap li {margin: 0 0 20px; width: 25%;}
+footer .ft_sitemap li {margin: 15px 0 20px; width: 25%;}
 footer .ft_sitemap li a {font-size: 13px; color: #808080;}
 
 footer p {margin: 15px 0; font-size: 12px; line-height: 1.5; color: #808080;}

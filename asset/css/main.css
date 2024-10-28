@@ -3,4 +3,13 @@
 /* section */
 section {}
 #main_wr {position: relative; top: -75px;}
-#main_wr img {width: 100%;}
+
+#main_wr .main_series {}
+#main_wr .main_series .main_series_txt {position: absolute; top: 50%; left: 15%; transform: translate(-50%, -50%); line-height: 1.5}
+#main_wr .main_series img {width: 100%;}
+
+#main_wr p {margin: 20px 0; font-size: 15px; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,.45);}
+
+#main_wr .main_btn {}
+#main_wr .main_btn button:first-child {padding: 10px; width: 100px; color: #111; border-radius: 5px; border: none; background-color: #fff;}
+#main_wr .main_btn button:nth-child(2) {padding: 10px 0 ; width: 100px; color: #fff; background-color: #6d6d6ed3; border: none;}
